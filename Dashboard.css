@@ -1,0 +1,466 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: row;
+    flex-direction: space-between;
+    height: 135vh;
+    width: 200vh;
+}
+
+.menu-items-container {
+    background-color: #9B76D6;
+    height: 140vh;
+    width: 241px;
+}
+
+.icon-heading {
+    font-family: Serif;
+    color: #BEFB7A;
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.second-heading {
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-item-selected {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(to right, #9B76D6, yellow);
+    text-align: left;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 800px;
+    color: #ffffff;
+}
+
+.menu-list-2 {
+    margin-top: 55px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 800px;
+    color: #ffffff;
+}
+
+.icon {
+   height: 20px;
+   width: 20px;
+   margin-right: 10px;
+}
+.para-items{
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.profile-det {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon {
+   height: 40px;
+   width: 40px;
+   margin-right: 15px;
+}
+
+.profile-heading {
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 8px;
+    color: #000000;
+}
+
+.profile-para {
+    font-family: Sans-Serif;
+    font-size: 10px;
+    color: #000;
+}
+
+.Dashboard-top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-heading {
+    font-family: Sans-Serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.main-content {
+    height: 135vh;
+    width: 200vh;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.search-icon {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.Quick-Links-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2F4F7;
+    border-radius: 12px;
+    padding: 10px;
+    width: 800px;
+}
+
+.Quick-Links-card-contanier {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: #FFFFFF;
+    height: 220px;
+    width: 750px;
+}
+
+.Quick-Links-heading {
+    font-family: Sans-Serif;
+    color: #344054;
+    font-size: 15px;
+}
+.icon3{
+    height: 55px;
+    width: 60px;
+}
+.Quick-Links-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #FCFCFD;
+    border-radius: 12px;
+    padding: 15px;
+    height: 90px;
+    width: 100px;
+    margin: 10px;
+}
+
+.Quick-icon {
+    color: #667085;
+    font-size: 25px;
+}
+
+.Quick-Links-card-para {
+    font-family: Sans-Serif;
+    font-size: 15px;
+}
+
+.bar-graph {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.bar {
+    width: 20px;
+    background-color: #9B76D6;
+    transition: height 0.3s ease;
+}
+
+.bar:hover {
+    background-color: #9B76D6;
+}
+
+.bar-graph-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2F4F7;
+    border-radius: 12px;
+    padding: 10px;
+    width: 800px;
+}
+
+.bar-graph-container-heading-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Download-icon {
+    color: #AD8EDD;
+    margin-right: 10px;
+    text-align: inline-block;
+}
+
+.para {
+    color: #AD8EDD;
+    font-family: Sans-Serif;
+}
+
+.month-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.month-para {
+    font-family: Sans-Serif;
+    color: #98A2B3;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.btn-year {
+    background-color: #F1EBF9;
+    border-width: 0px;
+    padding: 8px;
+    font-family: Sans-Serif;
+    font-family: 15px;
+}
+
+.section-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.trading-acc-conatiner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2F4F7;
+    border-radius: 12px;
+    padding: 10px;
+    height: 460px;
+    width: 400px;
+
+}
+
+.trading-acc-heading {
+    font-family: Sans-Serif;
+    color: #344054;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.trading-acc-card {
+    background-color: #F2F4F7;
+    border-radius: 15px;
+    margin: 12px;
+    height: 180px;
+    width: 300px;
+}
+
+.trading-acc-para {
+    font-family: Sans-Serif;
+    color: #344054;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.trading-acc-para2 {
+    font-family: Sans-Serif;
+    background-color: #F2F4F7;
+    color: #344054;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 25px;
+    width: 70px;
+}
+
+.usd-text {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.usdt-text {
+    font-family: Sans-Serif;
+    font-size: 30px;
+    font-weight: none;
+    margin-right: 35px;
+}
+
+.Open-Trades-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2F4F7;
+    border-radius: 12px;
+    padding: 10px;
+    height: 460px;
+    width: 400px;
+}
+
+.Open-Trades-card {
+    background-color: #F2F4F7;
+    border-radius: 15px;
+    margin: 12px;
+    height: 110px;
+    width: 350px;
+    padding: 10px;
+}
+
+.Open-Trades-card-heading {
+    font-family: Sans-Serif;
+    font-size: 15px;
+    margin: 10px;
+    color: #667085;
+}
+
+.Open-Trades-card-heading2 {
+    background-color: #EBFFEE;
+    font-family: Sans-Serif;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.Open-Trades-card-para {
+    font-family: Sans-Serif;
+    background-color: #ffffff;
+    font-size: 16px;
+    margin-left: 120px;
+    padding: 8px;
+    color: #667085;
+}
+
+.money-in-usd {
+    margin: 10px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #14AE5C;
+}
+
+.USD-text01 {
+    font-size: 24px;
+    margin-left: 15px;
+    color: #344054;
+}
+
+.money-in-usd-red {
+    margin: 10px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #EC221F;
+}
+
+.Open-Trades-card-heading2-red {
+    background-color: #FEE9E7;
+    font-family: Sans-Serif;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.buy-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:#14AE5C;
+    border-width: 0px;
+    border-radius: 15px;
+}
+.sell-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:hsl(14, 84%, 49%);
+    border-width: 0px;
+    border-radius: 15px;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.row-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
